@@ -1,0 +1,38 @@
+@api = http://localhost:4000/products
+
+
+GET {{api}}
+###
+
+POST {{api}} 
+Content-Type: application/json
+{
+    "name":"3",
+    "description":"asdasdasdasd" 
+}
+###
+
+GET {{api}}/26
+
+###
+DELETE {{api}}/6
+
+###
+GET {{api}}/count
+
+###
+
+PUT {{api}}/8
+Content-Type: application/json
+
+{
+    "name":"laptop HP",
+    "description":"gaming  hp",
+    "quantiti":150
+}
+
+
+
+
+
+
